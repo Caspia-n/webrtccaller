@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "dec90a38-d5a1-425e-9eb6-de2f1beedc5e"
+      }
+    },
+    "owner": "caspiansk8s-organization",
+    "name": "webrtccaller",
+    "slug": "webrtccaller",
+    "platforms": ["ios", "android", "web"]
+  }
+}

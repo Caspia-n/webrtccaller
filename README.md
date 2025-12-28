@@ -9,12 +9,14 @@ A small mobile-first React app for WebRTC calling using a WebSocket signaling se
 - Mobile-first UI with iOS liquid-glass styling ✅
 - Runtime settings (saved to localStorage) and .env overrides ✅
 
-## Quick start
+## Quick start (Next + TypeScript)
 
-1. Copy `.env.example` to `.env` and edit if needed.
-2. Install deps: `npm install`
-3. Run dev server: `npm run dev`
-4. Open on your phone or desktop: `http://localhost:5173` (or the URL printed by Vite)
+1. Copy `.env.local.example` to `.env.local` and edit the values as needed.
+2. Install deps: `pnpm install` (or `npm install` / `yarn install`)
+3. Run Next dev with Turbopack: `pnpm run dev:next` (or `npm run dev:next`)
+4. Open your browser at `http://localhost:3000` (Turbopack runs the Next dev server)
+
+To use the previous Expo dev flow run: `pnpm run dev:expo` (kept for convenience)
 
 ## How it works
 
